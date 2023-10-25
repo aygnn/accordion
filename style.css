@@ -1,0 +1,32 @@
+
+body{
+    background-color: #80808029 !important;
+}
+.acc{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.accordion-flush{
+    /* border: 1px solid; */
+    width: 52%;
+}
+.accordion-item{
+    margin-bottom: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid #434343b5 !important;
+    border-radius: 6px !important;
+}
+.collapsed{
+    background-color: #80808029 !important;
+
+}
+.accordion-button:not(.collapsed) {
+    background-color: white !important;
+}
+.accordion-button:focus{
+    border-color: red !important;
+    box-shadow: transparent !important;
+}
